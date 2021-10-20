@@ -15,3 +15,5 @@ while True:
         break
     else:
         catName = catName + [name]
+
+print('well... that was fun.')
