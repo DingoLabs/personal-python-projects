@@ -12,3 +12,10 @@ text = '\n'.join(lines)
 
 pyperclip.copy(text)
 
+# turns
+# pizza burgers fries pop
+# into
+# * pizza
+# * burgers
+# * fries
+# * pop

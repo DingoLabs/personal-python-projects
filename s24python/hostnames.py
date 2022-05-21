@@ -5,7 +5,7 @@ except ImportError or ModuleNotFoundError:
     print("run 'python3 pip install pyperclip'")
     quit()
 
-    
+
 #wrote with Python 3.9.10
 
 # print any 3 or 4 customer name hostname from clipboard
@@ -57,7 +57,7 @@ print("--- found the following hostnames ---")
 for host in hostlist:
     print(host)
 
-# convert list to string becasue pypclip cant copy list to clipboard
+# convert list to string becasue pyperclip cant copy list to clipboard
 hostname_string = '\n'.join(hostlist)
 
 pyperclip.copy(hostname_string)

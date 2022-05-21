@@ -8,7 +8,7 @@ def on_progress(stream, chunk, bytes_remaining):
     print('progress')
 
 video_object = YouTube(
-    'https://www.youtube.com/watch?v=NtzDjNhPZgU', 
+    'https://www.youtube.com/watch?v=q_pOh8ISa0g', 
     on_complete_callback = on_complete,
     on_progress_callback = on_progress)
 
@@ -19,8 +19,8 @@ video_object = YouTube(
 #print(video_object.description)
 
 # video streams
-#for stream in video_object.streams:
-#    print(stream)
+for stream in video_object.streams:
+    print(stream)
 
 #print(video_object.streams.get_highest_resolution())
 #print(video_object.streams.get_audio_only())
