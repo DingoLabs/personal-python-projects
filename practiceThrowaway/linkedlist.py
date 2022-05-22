@@ -20,19 +20,4 @@ def print_list(head):
         print(current.val)
         current = current.next
 
-print_list(a)
-
-
-#recursive answer
-
-# def print_list(head):
-#     if head in None:
-#         return
-#     print(head.val)
-#     print_list(head.next)
-
-
-
-
-
-    
+print_list(a)  
